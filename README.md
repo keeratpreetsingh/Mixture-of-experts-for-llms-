@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![DeepSeek](https://img.shields.io/badge/Inspired_by-DeepSeekV3-black?logo=openai)](https://github.com/deepseek-ai)
 
-###Author
+### Author
 
 **Implementation by:** Keeratpreet Singh
 
