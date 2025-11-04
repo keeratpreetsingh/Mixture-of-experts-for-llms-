@@ -1,3 +1,13 @@
+import torch
+import torch.nn as nn
+class swigluffn(nn.Module):
+    def __init__(self,d,dff):
+        super().__init__()
+        self.w1=nn.Linear(d,dff)
+        self.w2=nn.Linear(d,dff)
+        self.w3=nn.Linear(dff,d)
+    def forward(self,x):
+        return self.w3((self.w2(x))*(nn.functional.silu(self.w1(x))))
 class MOE(nn.Module):
     def __init__(self, num_experts, context_length, cfg):
         super().__init__()
