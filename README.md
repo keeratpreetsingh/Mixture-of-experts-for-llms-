@@ -113,7 +113,7 @@ Adds random noise to encourage expert diversity.
 4. Load Balancing:
 Applies auxiliary loss term to ensure even expert utilization.
 
-📘 Example Usage
+### Example Usage
 import torch
 from moe import MOE, swigluffn
 
@@ -167,7 +167,7 @@ If you use or reference this work, please cite both the original MoE papers and 
 
 🌐 GitHub: Keeratpreetsingh
 
-🪪 License
+## License
 
 This repository is released under the MIT License.
 Original research © Google Research, DeepSeek AI.
